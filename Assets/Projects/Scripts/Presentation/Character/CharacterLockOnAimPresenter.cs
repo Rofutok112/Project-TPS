@@ -14,8 +14,8 @@ public sealed class CharacterLockOnAimPresenter : MonoBehaviour
     [SerializeField] private float cameraVerticalWeight = 0.2f;
     [SerializeField] private float lookWeight = 1f;
     [SerializeField] private float bodyWeight = 0f;
-    [SerializeField] private float headWeight = 0.75f;
-    [SerializeField] private float eyesWeight = 0.3f;
+    [SerializeField] private float headWeight = 0f;
+    [SerializeField] private float eyesWeight = 0f;
     [SerializeField] private float cameraHeadWeight = 0f;
     [SerializeField] private float cameraEyesWeight = 0f;
     [SerializeField] private float clampWeight = 0.35f;

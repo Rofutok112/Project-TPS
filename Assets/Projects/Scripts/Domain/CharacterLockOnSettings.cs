@@ -10,6 +10,12 @@ public sealed class CharacterLockOnSettings
     [Range(1f, 180f)]
     public float maxViewAngle = 70f;
 
+    [Range(1f, 180f)]
+    public float focusReleaseViewAngle = 95f;
+
+    [Range(1f, 180f)]
+    public float focusResumeViewAngle = 75f;
+
     [Min(0f)]
     public float distanceScoreWeight = 0.035f;
 

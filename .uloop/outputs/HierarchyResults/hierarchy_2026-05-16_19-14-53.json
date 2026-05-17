@@ -1,0 +1,1212 @@
+{
+  "ExportTimestamp": "2026-05-16 19:14:53",
+  "Context": {
+    "sceneType": "editor",
+    "sceneName": "Prototype",
+    "nodeCount": 119,
+    "maxDepth": 1
+  },
+  "Hierarchy": [
+    {
+      "sceneName": "Prototype",
+      "stats": {
+        "rootCount": 1,
+        "nodeCount": 119,
+        "maxDepth": 1
+      },
+      "roots": [
+        {
+          "name": "TPS_TestCourse",
+          "isActive": true,
+          "components": [],
+          "siblingIndex": 4,
+          "tag": "Untagged",
+          "layer": 0,
+          "path": "TPS_TestCourse",
+          "children": [
+            {
+              "name": "StartGrid_00",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 0,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_00",
+              "children": []
+            },
+            {
+              "name": "StartGrid_01",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 1,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_01",
+              "children": []
+            },
+            {
+              "name": "StartGrid_02",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 2,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_02",
+              "children": []
+            },
+            {
+              "name": "StartGrid_03",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 3,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_03",
+              "children": []
+            },
+            {
+              "name": "StartGrid_04",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 4,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_04",
+              "children": []
+            },
+            {
+              "name": "StartGrid_05",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 5,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_05",
+              "children": []
+            },
+            {
+              "name": "StartGrid_06",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 6,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_06",
+              "children": []
+            },
+            {
+              "name": "StartGrid_07",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 7,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_07",
+              "children": []
+            },
+            {
+              "name": "StartGrid_08",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 8,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_08",
+              "children": []
+            },
+            {
+              "name": "StartGrid_09",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 9,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_09",
+              "children": []
+            },
+            {
+              "name": "StartGrid_10",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 10,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_10",
+              "children": []
+            },
+            {
+              "name": "StartGrid_11",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 11,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_11",
+              "children": []
+            },
+            {
+              "name": "StartGrid_12",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 12,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_12",
+              "children": []
+            },
+            {
+              "name": "StartGrid_13",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 13,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_13",
+              "children": []
+            },
+            {
+              "name": "StartGrid_14",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 14,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_14",
+              "children": []
+            },
+            {
+              "name": "StartGrid_15",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 15,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_15",
+              "children": []
+            },
+            {
+              "name": "StartGrid_16",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 16,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_16",
+              "children": []
+            },
+            {
+              "name": "StartGrid_17",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 17,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_17",
+              "children": []
+            },
+            {
+              "name": "StartGrid_18",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 18,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_18",
+              "children": []
+            },
+            {
+              "name": "StartGrid_19",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 19,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_19",
+              "children": []
+            },
+            {
+              "name": "StartGrid_20",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 20,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/StartGrid_20",
+              "children": []
+            },
+            {
+              "name": "Start_Gate",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 21,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Start_Gate",
+              "children": []
+            },
+            {
+              "name": "Speed_Check_Gate",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 22,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Speed_Check_Gate",
+              "children": []
+            },
+            {
+              "name": "SlalomGrid_00",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 23,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/SlalomGrid_00",
+              "children": []
+            },
+            {
+              "name": "SlalomGrid_01",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 24,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/SlalomGrid_01",
+              "children": []
+            },
+            {
+              "name": "SlalomGrid_02",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 25,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/SlalomGrid_02",
+              "children": []
+            },
+            {
+              "name": "SlalomGrid_03",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 26,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/SlalomGrid_03",
+              "children": []
+            },
+            {
+              "name": "SlalomGrid_04",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 27,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/SlalomGrid_04",
+              "children": []
+            },
+            {
+              "name": "SlalomGrid_05",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 28,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/SlalomGrid_05",
+              "children": []
+            },
+            {
+              "name": "SlalomGrid_06",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 29,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/SlalomGrid_06",
+              "children": []
+            },
+            {
+              "name": "SlalomGrid_07",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 30,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/SlalomGrid_07",
+              "children": []
+            },
+            {
+              "name": "SlalomGrid_08",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 31,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/SlalomGrid_08",
+              "children": []
+            },
+            {
+              "name": "SlalomGrid_09",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 32,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/SlalomGrid_09",
+              "children": []
+            },
+            {
+              "name": "SlalomGrid_10",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 33,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/SlalomGrid_10",
+              "children": []
+            },
+            {
+              "name": "SlalomGrid_11",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 34,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/SlalomGrid_11",
+              "children": []
+            },
+            {
+              "name": "SlalomGrid_12",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 35,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/SlalomGrid_12",
+              "children": []
+            },
+            {
+              "name": "SlalomGrid_13",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 36,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/SlalomGrid_13",
+              "children": []
+            },
+            {
+              "name": "SlalomGrid_14",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 37,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/SlalomGrid_14",
+              "children": []
+            },
+            {
+              "name": "Slalom_Barrier_1",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 38,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Slalom_Barrier_1",
+              "children": []
+            },
+            {
+              "name": "Slalom_Barrier_2",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 39,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Slalom_Barrier_2",
+              "children": []
+            },
+            {
+              "name": "Slalom_Barrier_3",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 40,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Slalom_Barrier_3",
+              "children": []
+            },
+            {
+              "name": "Slalom_Barrier_4",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 41,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Slalom_Barrier_4",
+              "children": []
+            },
+            {
+              "name": "Slalom_Barrier_5",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 42,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Slalom_Barrier_5",
+              "children": []
+            },
+            {
+              "name": "RampApproach_00",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 43,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/RampApproach_00",
+              "children": []
+            },
+            {
+              "name": "RampApproach_01",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 44,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/RampApproach_01",
+              "children": []
+            },
+            {
+              "name": "RampApproach_02",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 45,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/RampApproach_02",
+              "children": []
+            },
+            {
+              "name": "RampApproach_03",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 46,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/RampApproach_03",
+              "children": []
+            },
+            {
+              "name": "RampApproach_04",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 47,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/RampApproach_04",
+              "children": []
+            },
+            {
+              "name": "RampApproach_05",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 48,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/RampApproach_05",
+              "children": []
+            },
+            {
+              "name": "Ramp_Up",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 49,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Ramp_Up",
+              "children": []
+            },
+            {
+              "name": "UpperDeck_00",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 50,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/UpperDeck_00",
+              "children": []
+            },
+            {
+              "name": "UpperDeck_01",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 51,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/UpperDeck_01",
+              "children": []
+            },
+            {
+              "name": "UpperDeck_02",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 52,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/UpperDeck_02",
+              "children": []
+            },
+            {
+              "name": "UpperDeck_03",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 53,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/UpperDeck_03",
+              "children": []
+            },
+            {
+              "name": "UpperDeck_04",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 54,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/UpperDeck_04",
+              "children": []
+            },
+            {
+              "name": "UpperDeck_05",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 55,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/UpperDeck_05",
+              "children": []
+            },
+            {
+              "name": "UpperDeck_06",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 56,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/UpperDeck_06",
+              "children": []
+            },
+            {
+              "name": "UpperDeck_07",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 57,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/UpperDeck_07",
+              "children": []
+            },
+            {
+              "name": "UpperDeck_08",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 58,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/UpperDeck_08",
+              "children": []
+            },
+            {
+              "name": "UpperDeck_09",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 59,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/UpperDeck_09",
+              "children": []
+            },
+            {
+              "name": "UpperDeck_10",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 60,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/UpperDeck_10",
+              "children": []
+            },
+            {
+              "name": "UpperDeck_11",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 61,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/UpperDeck_11",
+              "children": []
+            },
+            {
+              "name": "UpperDeck_12",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 62,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/UpperDeck_12",
+              "children": []
+            },
+            {
+              "name": "UpperDeck_13",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 63,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/UpperDeck_13",
+              "children": []
+            },
+            {
+              "name": "UpperDeck_14",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 64,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/UpperDeck_14",
+              "children": []
+            },
+            {
+              "name": "Stairs_Down",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 65,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Stairs_Down",
+              "children": []
+            },
+            {
+              "name": "PreJump_00",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 66,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/PreJump_00",
+              "children": []
+            },
+            {
+              "name": "PreJump_01",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 67,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/PreJump_01",
+              "children": []
+            },
+            {
+              "name": "PreJump_02",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 68,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/PreJump_02",
+              "children": []
+            },
+            {
+              "name": "PreJump_03",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 69,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/PreJump_03",
+              "children": []
+            },
+            {
+              "name": "PreJump_04",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 70,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/PreJump_04",
+              "children": []
+            },
+            {
+              "name": "PreJump_05",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 71,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/PreJump_05",
+              "children": []
+            },
+            {
+              "name": "Jump_Lip",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 72,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Jump_Lip",
+              "children": []
+            },
+            {
+              "name": "LandingGrid_00",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 73,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/LandingGrid_00",
+              "children": []
+            },
+            {
+              "name": "LandingGrid_01",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 74,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/LandingGrid_01",
+              "children": []
+            },
+            {
+              "name": "LandingGrid_02",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 75,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/LandingGrid_02",
+              "children": []
+            },
+            {
+              "name": "LandingGrid_03",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 76,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/LandingGrid_03",
+              "children": []
+            },
+            {
+              "name": "LandingGrid_04",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 77,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/LandingGrid_04",
+              "children": []
+            },
+            {
+              "name": "LandingGrid_05",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 78,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/LandingGrid_05",
+              "children": []
+            },
+            {
+              "name": "LandingGrid_06",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 79,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/LandingGrid_06",
+              "children": []
+            },
+            {
+              "name": "LandingGrid_07",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 80,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/LandingGrid_07",
+              "children": []
+            },
+            {
+              "name": "LandingGrid_08",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 81,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/LandingGrid_08",
+              "children": []
+            },
+            {
+              "name": "LandingGrid_09",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 82,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/LandingGrid_09",
+              "children": []
+            },
+            {
+              "name": "LandingGrid_10",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 83,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/LandingGrid_10",
+              "children": []
+            },
+            {
+              "name": "LandingGrid_11",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 84,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/LandingGrid_11",
+              "children": []
+            },
+            {
+              "name": "LandingGrid_12",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 85,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/LandingGrid_12",
+              "children": []
+            },
+            {
+              "name": "LandingGrid_13",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 86,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/LandingGrid_13",
+              "children": []
+            },
+            {
+              "name": "LandingGrid_14",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 87,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/LandingGrid_14",
+              "children": []
+            },
+            {
+              "name": "Landing_Target_Ring",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 88,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Landing_Target_Ring",
+              "children": []
+            },
+            {
+              "name": "Balance_Beam_1",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 89,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Balance_Beam_1",
+              "children": []
+            },
+            {
+              "name": "Balance_Beam_2",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 90,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Balance_Beam_2",
+              "children": []
+            },
+            {
+              "name": "Balance_Beam_3",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 91,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Balance_Beam_3",
+              "children": []
+            },
+            {
+              "name": "Balance_Beam_4",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 92,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Balance_Beam_4",
+              "children": []
+            },
+            {
+              "name": "Balance_Beam_5",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 93,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Balance_Beam_5",
+              "children": []
+            },
+            {
+              "name": "FinishPad_00",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 94,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/FinishPad_00",
+              "children": []
+            },
+            {
+              "name": "FinishPad_01",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 95,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/FinishPad_01",
+              "children": []
+            },
+            {
+              "name": "FinishPad_02",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 96,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/FinishPad_02",
+              "children": []
+            },
+            {
+              "name": "FinishPad_03",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 97,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/FinishPad_03",
+              "children": []
+            },
+            {
+              "name": "FinishPad_04",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 98,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/FinishPad_04",
+              "children": []
+            },
+            {
+              "name": "FinishPad_05",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 99,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/FinishPad_05",
+              "children": []
+            },
+            {
+              "name": "FinishPad_06",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 100,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/FinishPad_06",
+              "children": []
+            },
+            {
+              "name": "FinishPad_07",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 101,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/FinishPad_07",
+              "children": []
+            },
+            {
+              "name": "FinishPad_08",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 102,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/FinishPad_08",
+              "children": []
+            },
+            {
+              "name": "Finish_Gate",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 103,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Finish_Gate",
+              "children": []
+            },
+            {
+              "name": "Left_Distance_Marker_1",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 104,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Left_Distance_Marker_1",
+              "children": []
+            },
+            {
+              "name": "Right_Distance_Marker_1",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 105,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Right_Distance_Marker_1",
+              "children": []
+            },
+            {
+              "name": "Left_Distance_Marker_2",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 106,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Left_Distance_Marker_2",
+              "children": []
+            },
+            {
+              "name": "Right_Distance_Marker_2",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 107,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Right_Distance_Marker_2",
+              "children": []
+            },
+            {
+              "name": "Left_Distance_Marker_3",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 108,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Left_Distance_Marker_3",
+              "children": []
+            },
+            {
+              "name": "Right_Distance_Marker_3",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 109,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Right_Distance_Marker_3",
+              "children": []
+            },
+            {
+              "name": "Left_Distance_Marker_4",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 110,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Left_Distance_Marker_4",
+              "children": []
+            },
+            {
+              "name": "Right_Distance_Marker_4",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 111,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Right_Distance_Marker_4",
+              "children": []
+            },
+            {
+              "name": "Left_Distance_Marker_5",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 112,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Left_Distance_Marker_5",
+              "children": []
+            },
+            {
+              "name": "Right_Distance_Marker_5",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 113,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Right_Distance_Marker_5",
+              "children": []
+            },
+            {
+              "name": "Left_Distance_Marker_6",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 114,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Left_Distance_Marker_6",
+              "children": []
+            },
+            {
+              "name": "Right_Distance_Marker_6",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 115,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Right_Distance_Marker_6",
+              "children": []
+            },
+            {
+              "name": "Cover_Block_Left",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 116,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Cover_Block_Left",
+              "children": []
+            },
+            {
+              "name": "Cover_Block_Right",
+              "isActive": true,
+              "components": [],
+              "siblingIndex": 117,
+              "tag": "Untagged",
+              "layer": 0,
+              "path": "TPS_TestCourse/Cover_Block_Right",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

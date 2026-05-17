@@ -1,0 +1,1357 @@
+{
+  "ExportTimestamp": "2026-05-16 19:13:34",
+  "Context": {
+    "sceneType": "runtime",
+    "sceneName": "Multiple(2): Prototype, DontDestroyOnLoad",
+    "nodeCount": 111,
+    "maxDepth": 15
+  },
+  "Hierarchy": [
+    {
+      "sceneName": "Prototype",
+      "stats": {
+        "rootCount": 4,
+        "nodeCount": 110,
+        "maxDepth": 15
+      },
+      "componentsLut": [
+        "Transform",
+        "Camera",
+        "AudioListener",
+        "UniversalAdditionalCameraData",
+        "CharacterCameraRig",
+        "Light",
+        "UniversalAdditionalLightData",
+        "Animator",
+        "CharacterController",
+        "CharacterMotor",
+        "CharacterAnimationDriver",
+        "SkinnedMeshRenderer",
+        "MeshFilter",
+        "MeshRenderer",
+        "MeshCollider"
+      ],
+      "roots": [
+        {
+          "name": "Main Camera",
+          "isActive": true,
+          "componentsIdx": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "siblingIndex": 0,
+          "tag": "MainCamera",
+          "layer": 0,
+          "children": []
+        },
+        {
+          "name": "Directional Light",
+          "isActive": true,
+          "componentsIdx": [
+            0,
+            5,
+            6
+          ],
+          "siblingIndex": 1,
+          "tag": "Untagged",
+          "layer": 0,
+          "children": []
+        },
+        {
+          "name": "model-girl",
+          "isActive": true,
+          "componentsIdx": [
+            0,
+            7,
+            8,
+            9,
+            10
+          ],
+          "siblingIndex": 2,
+          "tag": "Untagged",
+          "layer": 0,
+          "children": [
+            {
+              "name": "Armature",
+              "isActive": true,
+              "componentsIdx": [
+                0
+              ],
+              "siblingIndex": 0,
+              "tag": "Untagged",
+              "layer": 0,
+              "children": [
+                {
+                  "name": "root",
+                  "isActive": true,
+                  "componentsIdx": [
+                    0
+                  ],
+                  "siblingIndex": 0,
+                  "tag": "Untagged",
+                  "layer": 0,
+                  "children": [
+                    {
+                      "name": "CC_Base_Hip",
+                      "isActive": true,
+                      "componentsIdx": [
+                        0
+                      ],
+                      "siblingIndex": 0,
+                      "tag": "Untagged",
+                      "layer": 0,
+                      "children": [
+                        {
+                          "name": "CC_Base_Pelvis",
+                          "isActive": true,
+                          "componentsIdx": [
+                            0
+                          ],
+                          "siblingIndex": 0,
+                          "tag": "Untagged",
+                          "layer": 0,
+                          "children": [
+                            {
+                              "name": "CC_Base_L_Thigh",
+                              "isActive": true,
+                              "componentsIdx": [
+                                0
+                              ],
+                              "siblingIndex": 0,
+                              "tag": "Untagged",
+                              "layer": 0,
+                              "children": [
+                                {
+                                  "name": "CC_Base_L_Calf",
+                                  "isActive": true,
+                                  "componentsIdx": [
+                                    0
+                                  ],
+                                  "siblingIndex": 0,
+                                  "tag": "Untagged",
+                                  "layer": 0,
+                                  "children": [
+                                    {
+                                      "name": "CC_Base_L_CalfTwist01",
+                                      "isActive": true,
+                                      "componentsIdx": [
+                                        0
+                                      ],
+                                      "siblingIndex": 0,
+                                      "tag": "Untagged",
+                                      "layer": 0,
+                                      "children": [
+                                        {
+                                          "name": "CC_Base_L_CalfTwist02",
+                                          "isActive": true,
+                                          "componentsIdx": [
+                                            0
+                                          ],
+                                          "siblingIndex": 0,
+                                          "tag": "Untagged",
+                                          "layer": 0,
+                                          "children": [
+                                            {
+                                              "name": "CC_Base_L_CalfTwist02_end",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 0,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "CC_Base_L_Foot",
+                                      "isActive": true,
+                                      "componentsIdx": [
+                                        0
+                                      ],
+                                      "siblingIndex": 1,
+                                      "tag": "Untagged",
+                                      "layer": 0,
+                                      "children": [
+                                        {
+                                          "name": "CC_Base_L_ToeBase",
+                                          "isActive": true,
+                                          "componentsIdx": [
+                                            0
+                                          ],
+                                          "siblingIndex": 0,
+                                          "tag": "Untagged",
+                                          "layer": 0,
+                                          "children": [
+                                            {
+                                              "name": "CC_Base_L_BigToe1",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 0,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": [
+                                                {
+                                                  "name": "CC_Base_L_BigToe1_end",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 0,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "CC_Base_L_IndexToe1",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 1,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": [
+                                                {
+                                                  "name": "CC_Base_L_IndexToe1_end",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 0,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "CC_Base_L_MidToe1",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 2,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": [
+                                                {
+                                                  "name": "CC_Base_L_MidToe1_end",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 0,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "CC_Base_L_PinkyToe1",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 3,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": [
+                                                {
+                                                  "name": "CC_Base_L_PinkyToe1_end",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 0,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "CC_Base_L_RingToe1",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 4,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": [
+                                                {
+                                                  "name": "CC_Base_L_RingToe1_end",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 0,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "name": "CC_Base_L_ToeBaseShareBone",
+                                          "isActive": true,
+                                          "componentsIdx": [
+                                            0
+                                          ],
+                                          "siblingIndex": 1,
+                                          "tag": "Untagged",
+                                          "layer": 0,
+                                          "children": [
+                                            {
+                                              "name": "CC_Base_L_ToeBaseShareBone_end",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 0,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "CC_Base_L_KneeShareBone",
+                                      "isActive": true,
+                                      "componentsIdx": [
+                                        0
+                                      ],
+                                      "siblingIndex": 2,
+                                      "tag": "Untagged",
+                                      "layer": 0,
+                                      "children": [
+                                        {
+                                          "name": "CC_Base_L_KneeShareBone_end",
+                                          "isActive": true,
+                                          "componentsIdx": [
+                                            0
+                                          ],
+                                          "siblingIndex": 0,
+                                          "tag": "Untagged",
+                                          "layer": 0,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "CC_Base_L_ThighTwist01",
+                                  "isActive": true,
+                                  "componentsIdx": [
+                                    0
+                                  ],
+                                  "siblingIndex": 1,
+                                  "tag": "Untagged",
+                                  "layer": 0,
+                                  "children": [
+                                    {
+                                      "name": "CC_Base_L_ThighTwist02",
+                                      "isActive": true,
+                                      "componentsIdx": [
+                                        0
+                                      ],
+                                      "siblingIndex": 0,
+                                      "tag": "Untagged",
+                                      "layer": 0,
+                                      "children": [
+                                        {
+                                          "name": "CC_Base_L_ThighTwist02_end",
+                                          "isActive": true,
+                                          "componentsIdx": [
+                                            0
+                                          ],
+                                          "siblingIndex": 0,
+                                          "tag": "Untagged",
+                                          "layer": 0,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "name": "CC_Base_R_Thigh",
+                              "isActive": true,
+                              "componentsIdx": [
+                                0
+                              ],
+                              "siblingIndex": 1,
+                              "tag": "Untagged",
+                              "layer": 0,
+                              "children": [
+                                {
+                                  "name": "CC_Base_R_Calf",
+                                  "isActive": true,
+                                  "componentsIdx": [
+                                    0
+                                  ],
+                                  "siblingIndex": 0,
+                                  "tag": "Untagged",
+                                  "layer": 0,
+                                  "children": [
+                                    {
+                                      "name": "CC_Base_R_CalfTwist01",
+                                      "isActive": true,
+                                      "componentsIdx": [
+                                        0
+                                      ],
+                                      "siblingIndex": 0,
+                                      "tag": "Untagged",
+                                      "layer": 0,
+                                      "children": [
+                                        {
+                                          "name": "CC_Base_R_CalfTwist02",
+                                          "isActive": true,
+                                          "componentsIdx": [
+                                            0
+                                          ],
+                                          "siblingIndex": 0,
+                                          "tag": "Untagged",
+                                          "layer": 0,
+                                          "children": [
+                                            {
+                                              "name": "CC_Base_R_CalfTwist02_end",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 0,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "CC_Base_R_Foot",
+                                      "isActive": true,
+                                      "componentsIdx": [
+                                        0
+                                      ],
+                                      "siblingIndex": 1,
+                                      "tag": "Untagged",
+                                      "layer": 0,
+                                      "children": [
+                                        {
+                                          "name": "CC_Base_R_ToeBase",
+                                          "isActive": true,
+                                          "componentsIdx": [
+                                            0
+                                          ],
+                                          "siblingIndex": 0,
+                                          "tag": "Untagged",
+                                          "layer": 0,
+                                          "children": [
+                                            {
+                                              "name": "CC_Base_R_BigToe1",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 0,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": [
+                                                {
+                                                  "name": "CC_Base_R_BigToe1_end",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 0,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "CC_Base_R_IndexToe1",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 1,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": [
+                                                {
+                                                  "name": "CC_Base_R_IndexToe1_end",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 0,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "CC_Base_R_MidToe1",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 2,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": [
+                                                {
+                                                  "name": "CC_Base_R_MidToe1_end",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 0,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "CC_Base_R_PinkyToe1",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 3,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": [
+                                                {
+                                                  "name": "CC_Base_R_PinkyToe1_end",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 0,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": []
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "CC_Base_R_RingToe1",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 4,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": [
+                                                {
+                                                  "name": "CC_Base_R_RingToe1_end",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 0,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": []
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "name": "CC_Base_R_ToeBaseShareBone",
+                                          "isActive": true,
+                                          "componentsIdx": [
+                                            0
+                                          ],
+                                          "siblingIndex": 1,
+                                          "tag": "Untagged",
+                                          "layer": 0,
+                                          "children": [
+                                            {
+                                              "name": "CC_Base_R_ToeBaseShareBone_end",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 0,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "CC_Base_R_KneeShareBone",
+                                      "isActive": true,
+                                      "componentsIdx": [
+                                        0
+                                      ],
+                                      "siblingIndex": 2,
+                                      "tag": "Untagged",
+                                      "layer": 0,
+                                      "children": [
+                                        {
+                                          "name": "CC_Base_R_KneeShareBone_end",
+                                          "isActive": true,
+                                          "componentsIdx": [
+                                            0
+                                          ],
+                                          "siblingIndex": 0,
+                                          "tag": "Untagged",
+                                          "layer": 0,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "CC_Base_R_ThighTwist01",
+                                  "isActive": true,
+                                  "componentsIdx": [
+                                    0
+                                  ],
+                                  "siblingIndex": 1,
+                                  "tag": "Untagged",
+                                  "layer": 0,
+                                  "children": [
+                                    {
+                                      "name": "CC_Base_R_ThighTwist02",
+                                      "isActive": true,
+                                      "componentsIdx": [
+                                        0
+                                      ],
+                                      "siblingIndex": 0,
+                                      "tag": "Untagged",
+                                      "layer": 0,
+                                      "children": [
+                                        {
+                                          "name": "CC_Base_R_ThighTwist02_end",
+                                          "isActive": true,
+                                          "componentsIdx": [
+                                            0
+                                          ],
+                                          "siblingIndex": 0,
+                                          "tag": "Untagged",
+                                          "layer": 0,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "CC_Base_Waist",
+                          "isActive": true,
+                          "componentsIdx": [
+                            0
+                          ],
+                          "siblingIndex": 1,
+                          "tag": "Untagged",
+                          "layer": 0,
+                          "children": [
+                            {
+                              "name": "CC_Base_Spine01",
+                              "isActive": true,
+                              "componentsIdx": [
+                                0
+                              ],
+                              "siblingIndex": 0,
+                              "tag": "Untagged",
+                              "layer": 0,
+                              "children": [
+                                {
+                                  "name": "CC_Base_Spine02",
+                                  "isActive": true,
+                                  "componentsIdx": [
+                                    0
+                                  ],
+                                  "siblingIndex": 0,
+                                  "tag": "Untagged",
+                                  "layer": 0,
+                                  "children": [
+                                    {
+                                      "name": "CC_Base_L_Clavicle",
+                                      "isActive": true,
+                                      "componentsIdx": [
+                                        0
+                                      ],
+                                      "siblingIndex": 0,
+                                      "tag": "Untagged",
+                                      "layer": 0,
+                                      "children": [
+                                        {
+                                          "name": "CC_Base_L_Upperarm",
+                                          "isActive": true,
+                                          "componentsIdx": [
+                                            0
+                                          ],
+                                          "siblingIndex": 0,
+                                          "tag": "Untagged",
+                                          "layer": 0,
+                                          "children": [
+                                            {
+                                              "name": "CC_Base_L_Forearm",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 0,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": [
+                                                {
+                                                  "name": "CC_Base_L_ElbowShareBone",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 0,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": [
+                                                    {
+                                                      "name": "CC_Base_L_ElbowShareBone_end",
+                                                      "isActive": true,
+                                                      "componentsIdx": [
+                                                        0
+                                                      ],
+                                                      "siblingIndex": 0,
+                                                      "tag": "Untagged",
+                                                      "layer": 0,
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "CC_Base_L_ForearmTwist01",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 1,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": [
+                                                    {
+                                                      "name": "CC_Base_L_ForearmTwist02",
+                                                      "isActive": true,
+                                                      "componentsIdx": [
+                                                        0
+                                                      ],
+                                                      "siblingIndex": 0,
+                                                      "tag": "Untagged",
+                                                      "layer": 0,
+                                                      "children": [
+                                                        {
+                                                          "name": "CC_Base_L_ForearmTwist02_end",
+                                                          "isActive": true,
+                                                          "componentsIdx": [
+                                                            0
+                                                          ],
+                                                          "siblingIndex": 0,
+                                                          "tag": "Untagged",
+                                                          "layer": 0,
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "CC_Base_L_Hand",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 2,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": [
+                                                    {
+                                                      "name": "CC_Base_L_Hand_end",
+                                                      "isActive": true,
+                                                      "componentsIdx": [
+                                                        0
+                                                      ],
+                                                      "siblingIndex": 0,
+                                                      "tag": "Untagged",
+                                                      "layer": 0,
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "CC_Base_L_UpperarmTwist01",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 1,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": [
+                                                {
+                                                  "name": "CC_Base_L_UpperarmTwist02",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 0,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": [
+                                                    {
+                                                      "name": "CC_Base_L_UpperarmTwist02_end",
+                                                      "isActive": true,
+                                                      "componentsIdx": [
+                                                        0
+                                                      ],
+                                                      "siblingIndex": 0,
+                                                      "tag": "Untagged",
+                                                      "layer": 0,
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "CC_Base_L_RibsTwist",
+                                      "isActive": true,
+                                      "componentsIdx": [
+                                        0
+                                      ],
+                                      "siblingIndex": 1,
+                                      "tag": "Untagged",
+                                      "layer": 0,
+                                      "children": [
+                                        {
+                                          "name": "CC_Base_L_Breast",
+                                          "isActive": true,
+                                          "componentsIdx": [
+                                            0
+                                          ],
+                                          "siblingIndex": 0,
+                                          "tag": "Untagged",
+                                          "layer": 0,
+                                          "children": [
+                                            {
+                                              "name": "CC_Base_L_Breast_end",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 0,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "CC_Base_NeckTwist01",
+                                      "isActive": true,
+                                      "componentsIdx": [
+                                        0
+                                      ],
+                                      "siblingIndex": 2,
+                                      "tag": "Untagged",
+                                      "layer": 0,
+                                      "children": [
+                                        {
+                                          "name": "CC_Base_NeckTwist02",
+                                          "isActive": true,
+                                          "componentsIdx": [
+                                            0
+                                          ],
+                                          "siblingIndex": 0,
+                                          "tag": "Untagged",
+                                          "layer": 0,
+                                          "children": [
+                                            {
+                                              "name": "CC_Base_Head",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 0,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": [
+                                                {
+                                                  "name": "CC_Base_FacialBone",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 0,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": [
+                                                    {
+                                                      "name": "CC_Base_JawRoot",
+                                                      "isActive": true,
+                                                      "componentsIdx": [
+                                                        0
+                                                      ],
+                                                      "siblingIndex": 0,
+                                                      "tag": "Untagged",
+                                                      "layer": 0,
+                                                      "children": [
+                                                        {
+                                                          "name": "CC_Base_Teeth02",
+                                                          "isActive": true,
+                                                          "componentsIdx": [
+                                                            0
+                                                          ],
+                                                          "siblingIndex": 0,
+                                                          "tag": "Untagged",
+                                                          "layer": 0,
+                                                          "children": [
+                                                            {
+                                                              "name": "CC_Base_Teeth02_end",
+                                                              "isActive": true,
+                                                              "componentsIdx": [
+                                                                0
+                                                              ],
+                                                              "siblingIndex": 0,
+                                                              "tag": "Untagged",
+                                                              "layer": 0,
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "name": "CC_Base_Tongue01",
+                                                          "isActive": true,
+                                                          "componentsIdx": [
+                                                            0
+                                                          ],
+                                                          "siblingIndex": 1,
+                                                          "tag": "Untagged",
+                                                          "layer": 0,
+                                                          "children": [
+                                                            {
+                                                              "name": "CC_Base_Tongue02",
+                                                              "isActive": true,
+                                                              "componentsIdx": [
+                                                                0
+                                                              ],
+                                                              "siblingIndex": 0,
+                                                              "tag": "Untagged",
+                                                              "layer": 0,
+                                                              "children": [
+                                                                {
+                                                                  "name": "CC_Base_Tongue03",
+                                                                  "isActive": true,
+                                                                  "componentsIdx": [
+                                                                    0
+                                                                  ],
+                                                                  "siblingIndex": 0,
+                                                                  "tag": "Untagged",
+                                                                  "layer": 0,
+                                                                  "children": [
+                                                                    {
+                                                                      "name": "CC_Base_Tongue03_end",
+                                                                      "isActive": true,
+                                                                      "componentsIdx": [
+                                                                        0
+                                                                      ],
+                                                                      "siblingIndex": 0,
+                                                                      "tag": "Untagged",
+                                                                      "layer": 0,
+                                                                      "children": []
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "name": "CC_Base_L_Eye",
+                                                      "isActive": true,
+                                                      "componentsIdx": [
+                                                        0
+                                                      ],
+                                                      "siblingIndex": 1,
+                                                      "tag": "Untagged",
+                                                      "layer": 0,
+                                                      "children": [
+                                                        {
+                                                          "name": "CC_Base_L_Eye_end",
+                                                          "isActive": true,
+                                                          "componentsIdx": [
+                                                            0
+                                                          ],
+                                                          "siblingIndex": 0,
+                                                          "tag": "Untagged",
+                                                          "layer": 0,
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "name": "CC_Base_R_Eye",
+                                                      "isActive": true,
+                                                      "componentsIdx": [
+                                                        0
+                                                      ],
+                                                      "siblingIndex": 2,
+                                                      "tag": "Untagged",
+                                                      "layer": 0,
+                                                      "children": [
+                                                        {
+                                                          "name": "CC_Base_R_Eye_end",
+                                                          "isActive": true,
+                                                          "componentsIdx": [
+                                                            0
+                                                          ],
+                                                          "siblingIndex": 0,
+                                                          "tag": "Untagged",
+                                                          "layer": 0,
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    },
+                                                    {
+                                                      "name": "CC_Base_UpperJaw",
+                                                      "isActive": true,
+                                                      "componentsIdx": [
+                                                        0
+                                                      ],
+                                                      "siblingIndex": 3,
+                                                      "tag": "Untagged",
+                                                      "layer": 0,
+                                                      "children": [
+                                                        {
+                                                          "name": "CC_Base_Teeth01",
+                                                          "isActive": true,
+                                                          "componentsIdx": [
+                                                            0
+                                                          ],
+                                                          "siblingIndex": 0,
+                                                          "tag": "Untagged",
+                                                          "layer": 0,
+                                                          "children": [
+                                                            {
+                                                              "name": "CC_Base_Teeth01_end",
+                                                              "isActive": true,
+                                                              "componentsIdx": [
+                                                                0
+                                                              ],
+                                                              "siblingIndex": 0,
+                                                              "tag": "Untagged",
+                                                              "layer": 0,
+                                                              "children": []
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "CC_Base_R_Clavicle",
+                                      "isActive": true,
+                                      "componentsIdx": [
+                                        0
+                                      ],
+                                      "siblingIndex": 3,
+                                      "tag": "Untagged",
+                                      "layer": 0,
+                                      "children": [
+                                        {
+                                          "name": "CC_Base_R_Upperarm",
+                                          "isActive": true,
+                                          "componentsIdx": [
+                                            0
+                                          ],
+                                          "siblingIndex": 0,
+                                          "tag": "Untagged",
+                                          "layer": 0,
+                                          "children": [
+                                            {
+                                              "name": "CC_Base_R_Forearm",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 0,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": [
+                                                {
+                                                  "name": "CC_Base_R_ElbowShareBone",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 0,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": [
+                                                    {
+                                                      "name": "CC_Base_R_ElbowShareBone_end",
+                                                      "isActive": true,
+                                                      "componentsIdx": [
+                                                        0
+                                                      ],
+                                                      "siblingIndex": 0,
+                                                      "tag": "Untagged",
+                                                      "layer": 0,
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "CC_Base_R_ForearmTwist01",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 1,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": [
+                                                    {
+                                                      "name": "CC_Base_R_ForearmTwist02",
+                                                      "isActive": true,
+                                                      "componentsIdx": [
+                                                        0
+                                                      ],
+                                                      "siblingIndex": 0,
+                                                      "tag": "Untagged",
+                                                      "layer": 0,
+                                                      "children": [
+                                                        {
+                                                          "name": "CC_Base_R_ForearmTwist02_end",
+                                                          "isActive": true,
+                                                          "componentsIdx": [
+                                                            0
+                                                          ],
+                                                          "siblingIndex": 0,
+                                                          "tag": "Untagged",
+                                                          "layer": 0,
+                                                          "children": []
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "name": "CC_Base_R_Hand",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 2,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": [
+                                                    {
+                                                      "name": "CC_Base_R_Hand_end",
+                                                      "isActive": true,
+                                                      "componentsIdx": [
+                                                        0
+                                                      ],
+                                                      "siblingIndex": 0,
+                                                      "tag": "Untagged",
+                                                      "layer": 0,
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "name": "CC_Base_R_UpperarmTwist01",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 1,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": [
+                                                {
+                                                  "name": "CC_Base_R_UpperarmTwist02",
+                                                  "isActive": true,
+                                                  "componentsIdx": [
+                                                    0
+                                                  ],
+                                                  "siblingIndex": 0,
+                                                  "tag": "Untagged",
+                                                  "layer": 0,
+                                                  "children": [
+                                                    {
+                                                      "name": "CC_Base_R_UpperarmTwist02_end",
+                                                      "isActive": true,
+                                                      "componentsIdx": [
+                                                        0
+                                                      ],
+                                                      "siblingIndex": 0,
+                                                      "tag": "Untagged",
+                                                      "layer": 0,
+                                                      "children": []
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "CC_Base_R_RibsTwist",
+                                      "isActive": true,
+                                      "componentsIdx": [
+                                        0
+                                      ],
+                                      "siblingIndex": 4,
+                                      "tag": "Untagged",
+                                      "layer": 0,
+                                      "children": [
+                                        {
+                                          "name": "CC_Base_R_Breast",
+                                          "isActive": true,
+                                          "componentsIdx": [
+                                            0
+                                          ],
+                                          "siblingIndex": 0,
+                                          "tag": "Untagged",
+                                          "layer": 0,
+                                          "children": [
+                                            {
+                                              "name": "CC_Base_R_Breast_end",
+                                              "isActive": true,
+                                              "componentsIdx": [
+                                                0
+                                              ],
+                                              "siblingIndex": 0,
+                                              "tag": "Untagged",
+                                              "layer": 0,
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "mesh_input",
+              "isActive": true,
+              "componentsIdx": [
+                0,
+                11
+              ],
+              "siblingIndex": 1,
+              "tag": "Untagged",
+              "layer": 0,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "Plane",
+          "isActive": true,
+          "componentsIdx": [
+            0,
+            12,
+            13,
+            14
+          ],
+          "siblingIndex": 3,
+          "tag": "Untagged",
+          "layer": 0,
+          "children": []
+        }
+      ]
+    },
+    {
+      "sceneName": "DontDestroyOnLoad",
+      "stats": {
+        "rootCount": 1,
+        "nodeCount": 1,
+        "maxDepth": 0
+      },
+      "roots": [
+        {
+          "name": "[Debug Updater]",
+          "isActive": true,
+          "components": [
+            "Transform",
+            "DebugUpdater"
+          ],
+          "siblingIndex": 0,
+          "tag": "Untagged",
+          "layer": 0,
+          "children": []
+        }
+      ]
+    }
+  ]
+}

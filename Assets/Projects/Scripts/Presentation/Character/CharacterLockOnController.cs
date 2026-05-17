@@ -15,7 +15,10 @@ public sealed class CharacterLockOnController : MonoBehaviour
 
     private readonly List<CharacterLockOnCandidate> candidates = new List<CharacterLockOnCandidate>(32);
     private readonly Dictionary<int, CharacterLockOnTarget> targetById = new Dictionary<int, CharacterLockOnTarget>(32);
+    private readonly Dictionary<int, CharacterLockOnCandidate> candidateById = new Dictionary<int, CharacterLockOnCandidate>(32);
     private CharacterLockOnUseCase useCase;
+    private int focusedTargetId;
+    private bool focusAvailable = true;
 
     public Transform CurrentTarget { get; private set; }
 
@@ -61,12 +64,18 @@ public sealed class CharacterLockOnController : MonoBehaviour
         CharacterInputSnapshot input = inputReader != null ? inputReader.ReadSnapshot() : CharacterInputSnapshot.None;
         BuildCandidates();
         CharacterLockOnSnapshot snapshot = useCase.Tick(settings, input, candidates);
-        CurrentTarget = ResolveTarget(snapshot);
+        Transform resolvedTarget = ResolveTarget(snapshot);
 
-        if (snapshot.HasTarget && CurrentTarget == null)
+        if (snapshot.HasTarget && resolvedTarget == null)
         {
             useCase.Clear();
+            focusedTargetId = 0;
+            focusAvailable = true;
             CurrentTarget = null;
+        }
+        else
+        {
+            CurrentTarget = ResolveFocusedTarget(snapshot, resolvedTarget);
         }
 
         if (motor != null)
@@ -79,6 +88,7 @@ public sealed class CharacterLockOnController : MonoBehaviour
     {
         candidates.Clear();
         targetById.Clear();
+        candidateById.Clear();
 
         CharacterLockOnTarget[] targets = FindObjectsByType<CharacterLockOnTarget>(FindObjectsInactive.Exclude);
         Transform basis = cameraTransform != null ? cameraTransform : transform;
@@ -104,8 +114,10 @@ public sealed class CharacterLockOnController : MonoBehaviour
             float angle = Vector3.Angle(forward, toTarget);
             bool visible = HasLineOfSight(origin, aimPoint.position, target);
             int id = target.GetHashCode();
-            candidates.Add(new CharacterLockOnCandidate(id, aimPoint.position, distance, angle, visible));
+            CharacterLockOnCandidate candidate = new CharacterLockOnCandidate(id, aimPoint.position, distance, angle, visible);
+            candidates.Add(candidate);
             targetById[id] = target;
+            candidateById[id] = candidate;
         }
     }
 
@@ -134,5 +146,43 @@ public sealed class CharacterLockOnController : MonoBehaviour
         }
 
         return target.AimPoint;
+    }
+
+    private Transform ResolveFocusedTarget(CharacterLockOnSnapshot snapshot, Transform resolvedTarget)
+    {
+        if (!snapshot.HasTarget || resolvedTarget == null)
+        {
+            focusedTargetId = 0;
+            focusAvailable = true;
+            return null;
+        }
+
+        if (focusedTargetId != snapshot.TargetId)
+        {
+            focusedTargetId = snapshot.TargetId;
+            focusAvailable = true;
+        }
+
+        if (!candidateById.TryGetValue(snapshot.TargetId, out CharacterLockOnCandidate candidate))
+        {
+            focusAvailable = false;
+            return null;
+        }
+
+        float releaseAngle = Mathf.Max(settings.maxViewAngle, settings.focusReleaseViewAngle);
+        float resumeAngle = Mathf.Min(releaseAngle, settings.focusResumeViewAngle);
+        bool canFocus = candidate.Distance <= settings.maxDistance
+            && (!settings.requireLineOfSight || candidate.Visible);
+
+        if (focusAvailable && (!canFocus || candidate.ViewAngle > releaseAngle))
+        {
+            focusAvailable = false;
+        }
+        else if (!focusAvailable && canFocus && candidate.ViewAngle < resumeAngle)
+        {
+            focusAvailable = true;
+        }
+
+        return focusAvailable ? resolvedTarget : null;
     }
 }

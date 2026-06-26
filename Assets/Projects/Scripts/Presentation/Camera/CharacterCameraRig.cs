@@ -106,23 +106,13 @@ public sealed class CharacterCameraRig : MonoBehaviour
 
         if (followTarget == null)
         {
-            GameObject followTargetObject = GameObject.Find("TPS_CameraFollowTarget");
-            if (followTargetObject == null)
-            {
-                followTargetObject = new GameObject("TPS_CameraFollowTarget");
-            }
-
+            GameObject followTargetObject = new GameObject("TPS_CameraFollowTarget");
             followTarget = followTargetObject.transform;
         }
 
         if (cinemachineCamera == null)
         {
-            GameObject cameraObject = GameObject.Find("TPS_CinemachineCamera");
-            if (cameraObject == null)
-            {
-                cameraObject = new GameObject("TPS_CinemachineCamera");
-            }
-
+            GameObject cameraObject = new GameObject("TPS_CinemachineCamera");
             cinemachineCamera = cameraObject.GetComponent<CinemachineCamera>();
             if (cinemachineCamera == null)
             {
